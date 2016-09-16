@@ -1,0 +1,18 @@
+<?php
+/**
+ * Webkul Software.
+ *
+ * @category  Webkul
+ * @package   Webkul_Grid
+ * @author    Webkul
+ * @copyright Copyright (c) 2010-2016 Webkul Software Private Limited (https://webkul.com)
+ * @license   https://store.webkul.com/license.html
+ */
+
+$_item = $block->getItem();
+$product = $_item->getProduct(); // Get cart product details
+$additional_data = $block->getAdditionalData(); // Get cart product additionl details defined in block page
+?>
+<div>
+    <span><?php echo $additional_data?></span>
+</div>
